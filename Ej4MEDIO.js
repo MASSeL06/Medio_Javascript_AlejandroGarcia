@@ -1,7 +1,6 @@
 const input = require("prompt-sync")({sigint: true});
 
-const numeroAleatorio = Math.floor(Math.random()*101);
-console.log(numeroAleatorio)
+const numeroAleatorio = Math.floor(Math.random()*11);
 
 const numero = input ("Introduce tu número")
 console.log(numero)
